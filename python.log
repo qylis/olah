@@ -1,0 +1,411 @@
+2025-05-06 11:08:38 | INFO | stdout | Namespace(config='', host='localhost', port=8090, hf_scheme='https', hf_netloc='huggingface.co', hf_lfs_netloc='cdn-lfs.huggingface.co', mirror_scheme='http', mirror_netloc='localhost:8090', mirror_lfs_netloc='localhost:8090', has_lfs_site=False, ssl_key=None, ssl_cert=None, repos_path='./repos', cache_size_limit=None, cache_clean_strategy='LRU', log_path='./logs')
+2025-05-06 11:08:38 | INFO | stdout | Namespace(config='', host='localhost', port=8090, hf_scheme='https', hf_netloc='huggingface.co', hf_lfs_netloc='cdn-lfs.huggingface.co', mirror_scheme='http', mirror_netloc='localhost:8090', mirror_lfs_netloc='localhost:8090', has_lfs_site=False, ssl_key=None, ssl_cert=None, repos_path='./repos', cache_size_limit=None, cache_clean_strategy='LRU', log_path='./logs')
+2025-05-06 11:08:38 | ERROR | stderr | INFO:     Started server process [33251]
+2025-05-06 11:08:38 | ERROR | stderr | INFO:     Waiting for application startup.
+2025-05-06 11:08:38 | ERROR | stderr | INFO:     Application startup complete.
+2025-05-06 11:08:38 | ERROR | stderr | INFO:     Uvicorn running on http://localhost:8090 (Press CTRL+C to quit)
+2025-05-06 11:08:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/.gitattributes "HTTP/1.1 200 OK"
+2025-05-06 11:13:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/.gitattributes "HTTP/1.1 200 OK"
+2025-05-06 11:17:02 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=True&expand=False HTTP/1.1" 307 Temporary Redirect
+2025-05-06 11:17:02 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:17:02 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:03 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:03 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=true&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:17:03 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:17:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac/?recursive=true&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:17:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac?recursive=true&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:17:04 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=True&expand=False HTTP/1.1" 200 OK
+2025-05-06 11:17:04 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:05 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:05 | INFO | stdout | INFO:     127.0.0.1:44528 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:06 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:06 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:06 | ERROR | stderr | /home/ubuntu/mnt/qylis/hf_proxy/proxyenv/lib/python3.10/site-packages/portalocker/utils.py:231: UserWarning: timeout has no effect in blocking mode
+2025-05-06 11:17:06 | ERROR | stderr |   warnings.warn(
+2025-05-06 11:17:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:06 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:07 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:07 | INFO | stdout | INFO:     127.0.0.1:44528 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:07 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:07 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=True&expand=False HTTP/1.1" 307 Temporary Redirect
+2025-05-06 11:17:07 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:17:07 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=true&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:17:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:17:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac/?recursive=true&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:17:09 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac?recursive=true&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:17:09 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=True&expand=False HTTP/1.1" 200 OK
+2025-05-06 11:17:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:09 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:09 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:10 | INFO | stdout | INFO:     127.0.0.1:44528 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:11 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:11 | INFO | stdout | INFO:     127.0.0.1:44528 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:11 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:17 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:17 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:18 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:18 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:18 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:18 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:19 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:19 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:19 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:19 | INFO | stdout | INFO:     127.0.0.1:47718 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:19 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:20 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:20 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:20 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:20 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/vocab.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:20 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/vocab.json HTTP/1.1" 200 OK
+2025-05-06 11:17:21 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/vocab.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:22 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:22 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:22 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/vocab.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:22 | INFO | stdout | INFO:     127.0.0.1:47718 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/vocab.json HTTP/1.1" 200 OK
+2025-05-06 11:17:22 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/vocab.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:23 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:24 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:24 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:24 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/merges.txt "HTTP/1.1 200 OK"
+2025-05-06 11:17:24 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/merges.txt HTTP/1.1" 200 OK
+2025-05-06 11:17:24 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/merges.txt "HTTP/1.1 200 OK"
+2025-05-06 11:17:25 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:25 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:25 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/merges.txt "HTTP/1.1 200 OK"
+2025-05-06 11:17:25 | INFO | stdout | INFO:     127.0.0.1:47718 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/merges.txt HTTP/1.1" 200 OK
+2025-05-06 11:17:26 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/merges.txt "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:27 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:27 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:27 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:27 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:27 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer.json HTTP/1.1" 200 OK
+2025-05-06 11:17:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:28 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:28 | INFO | stdout | INFO:     127.0.0.1:47718 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer.json HTTP/1.1" 200 OK
+2025-05-06 11:17:29 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:30 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:30 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:30 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:30 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:31 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:31 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:32 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:32 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:32 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:32 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:32 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:32 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:17:33 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:33 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:33 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:34 | INFO | stdout | INFO:     127.0.0.1:47718 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/generation_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:34 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:35 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:35 | INFO | stdout | INFO:     127.0.0.1:47718 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/generation_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:35 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:48 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:48 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:48 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:48 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:48 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:48 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:49 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:49 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:17:50 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:50 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:51 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:51 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:52 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:53 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:53 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:54 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:55 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:17:56 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:56 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:17:56 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/processor_config.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/processor_config.json HTTP/1.1" 404 Not Found
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:57 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.json HTTP/1.1" 200 OK
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.json HTTP/1.1" 200 OK
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:58 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:59 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:59 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:17:59 | INFO | stdout | INFO:     127.0.0.1:42218 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.json HTTP/1.1" 200 OK
+2025-05-06 11:17:59 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:17:59 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:17:59 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:00 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:00 | INFO | stdout | INFO:     127.0.0.1:42218 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:18:00 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:00 | INFO | stdout | INFO:     127.0.0.1:42212 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:18:03 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:03 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:03 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:03 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:04 | INFO | stdout | INFO:     127.0.0.1:42212 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct HTTP/1.1" 200 OK
+2025-05-06 11:18:04 | INFO | stdout | INFO:     127.0.0.1:42212 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=False&expand=False HTTP/1.1" 307 Temporary Redirect
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | stdout | INFO:     127.0.0.1:42218 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct HTTP/1.1" 200 OK
+2025-05-06 11:18:05 | INFO | stdout | INFO:     127.0.0.1:42218 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=False&expand=False HTTP/1.1" 307 Temporary Redirect
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:05 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=false&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=false&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac/?recursive=false&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac?recursive=false&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:18:06 | INFO | stdout | INFO:     127.0.0.1:42218 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=False&expand=False HTTP/1.1" 200 OK
+2025-05-06 11:18:06 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac/?recursive=false&expand=false "HTTP/1.1 302 Found"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac?recursive=false&expand=false "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | stdout | INFO:     127.0.0.1:42212 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/tree/main/?recursive=False&expand=False HTTP/1.1" 200 OK
+2025-05-06 11:18:07 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:07 | INFO | stdout | INFO:     127.0.0.1:42218 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main HTTP/1.1" 200 OK
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:08 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | stdout | INFO:     127.0.0.1:51832 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:09 | INFO | stdout | INFO:     127.0.0.1:51856 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:09 | INFO | stdout | INFO:     127.0.0.1:51846 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | stdout | INFO:     127.0.0.1:51842 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | stdout | INFO:     127.0.0.1:51850 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:09 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | stdout | INFO:     127.0.0.1:51832 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | stdout | INFO:     127.0.0.1:51846 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00001-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | stdout | INFO:     127.0.0.1:51856 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00003-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:10 | INFO | stdout | INFO:     127.0.0.1:51850 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:10 | INFO | stdout | INFO:     127.0.0.1:51842 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors HTTP/1.1" 200 OK
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://cdn-lfs-us-1.hf.co/repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/eab4f4dc1abf860794c98ce3759b4ace1059fc0fc041ede76b88988b3557c132?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00005.safetensors%3B+filename%3D%22model-00001-of-00005.safetensors%22%3B&Expires=1746533890&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzMzg5MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvZWFiNGY0ZGMxYWJmODYwNzk0Yzk4Y2UzNzU5YjRhY2UxMDU5ZmMwZmMwNDFlZGU3NmI4ODk4OGIzNTU3YzEzMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=egAze8SHjw3iBVZWuvMuhHSgJWLwME4ti8NWDCUVMcZleFzr7Mxs3fhHQLZElE4pYfdbiuUQpG9JKrl9IOCmoeEkMlDQZbXDG0mDF6xJT15KUZLUMv4bill%7ELN4FYvYNM9UlOFUENN7SSCFRYWfNOv927G8FydZYFe7rceVT480US5G5uNEJGFjGpPOnpsXLGRQKPzv4QYFq0dZXDLEZz3bwuYKn-J0cDC5nRT-uFsFuTNsqu8-fEiEZZsEkrE7%7EYxNRxNIxxvJ%7EMcn0HNkQpiiFFhx2oM-Itw76A0m0HSvll-rAl1wy8MaJGsY1ETQLUwUFsFLwkm-VC5NDyvSbQw__&Key-Pair-Id=K24J24Z295AEI9 "HTTP/1.1 206 Partial Content"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://cdn-lfs-us-1.hf.co/repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/11368ea1e9c0039ca54012a74ac32d543a9e9d980b2d0ad7e93af0341ace1fe6?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00003-of-00005.safetensors%3B+filename%3D%22model-00003-of-00005.safetensors%22%3B&Expires=1746533890&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzMzg5MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvMTEzNjhlYTFlOWMwMDM5Y2E1NDAxMmE3NGFjMzJkNTQzYTllOWQ5ODBiMmQwYWQ3ZTkzYWYwMzQxYWNlMWZlNj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=nwwb7bUkk8%7E4FiDDQW2IVmdetfvWt22mI%7EM1eqH8BxN-Bc2ZXXLbyxUU%7EniAF9kV6dma9nhxyvXgdBmVkfAyB1G8xy6-6DbZDwA0jYjB2CmefNUQncdIav9FXuw4Yw6VST6JZXU1FN4QG%7EnAjbyUfZmLjwD0Vb4QjKkirtVbStkzMEWV9IUHii1i3lv2TcXXGWurpQIvWl1XofcklWNZzdRn4iY74BwKxJKchQ4GLIEwvlskD%7EtN8Wqzo9JRSAE0sMca4C54gn9afAPs-NIUkkLB6TMRCc5arJNwNqZgDwrvJ2WSunUBxsx99AcgCar%7EgPk-npUs7BOp9dpYyiVTwQ__&Key-Pair-Id=K24J24Z295AEI9 "HTTP/1.1 206 Partial Content"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00002-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00004-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model-00005-of-00005.safetensors "HTTP/1.1 302 Found"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://cdn-lfs-us-1.hf.co/repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/0546b7cd070ff239de0f61a28770de6a0ac517ad313071e151653e38911ffb25?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00005.safetensors%3B+filename%3D%22model-00002-of-00005.safetensors%22%3B&Expires=1746533891&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzMzg5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvMDU0NmI3Y2QwNzBmZjIzOWRlMGY2MWEyODc3MGRlNmEwYWM1MTdhZDMxMzA3MWUxNTE2NTNlMzg5MTFmZmIyNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=pjiKa%7ERqTygaB9mkWA4GlOVgCysvTEKAjuanqAgTsoi77sjyt1taf-aaGTdhVfGzfVzCzW6X-5x70ry1xeSNv9FaxMZZ8DNTkGj4MfvvIBdK82Jl-ko4DN0VvmMVVKJBsNQwcRXwqfDi9BRWcyg3-Eh4cXWdbZfQRUSn3ILsYP0Q2zKz2ALAI0T-OCFyXjsoEMVpzUqOx-dZwoPm1v4W9CDXNNkaAzyI1RKXJHBV6QUGT3FpQRRSr44FqlwJ%7E-Ht0C2vlRovzZtsmhGA9GzgR0wjQVPjB0lkyAtBOd1NAWxyxZ%7ExulgG-9Yi9vRiJfzTYbnWGdLMmnETiPs33ytxNw__&Key-Pair-Id=K24J24Z295AEI9 "HTTP/1.1 206 Partial Content"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://cdn-lfs-us-1.hf.co/repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/381e110d74db594cc24956af0e74a01ae02104497113a78926990c5bd1f395f6?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00004-of-00005.safetensors%3B+filename%3D%22model-00004-of-00005.safetensors%22%3B&Expires=1746533891&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzMzg5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvMzgxZTExMGQ3NGRiNTk0Y2MyNDk1NmFmMGU3NGEwMWFlMDIxMDQ0OTcxMTNhNzg5MjY5OTBjNWJkMWYzOTVmNj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=n4mllDvuyjbjk%7ENcW6sAGfgJULUyayFN5NILREGSx50CzO-dIE8zX-y3l%7E75wlSY3VyGWqMY%7ExvjpbUXgwuJp6Qu1BoUhrDpPT7npCoCpDyKbMNGoXi8ovFbv6ukGGgZRN6fGph5R%7EcRcvvISWNjSrnLyHY0knRIN0ujg1VTUm8vMjM3PfzsgpfA-FGoQ5rNBqL8ob9q%7E9eZrEGZ8ktxxOow6IEIKBM2lvRuZ6nkuiie752Y6aJPbUxwSE-UgNSzCgKcHGFvfU3ITwWYE-yq5b4z10K-guHIA-ZRLzsQOAynN0c3secXEP5uvcRwlf7MT5vVq6R%7Ef-Do3JroCkX8oA__&Key-Pair-Id=K24J24Z295AEI9 "HTTP/1.1 206 Partial Content"
+2025-05-06 11:18:11 | INFO | httpx | HTTP Request: GET https://cdn-lfs-us-1.hf.co/repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/e76ec4dc2e7c0dcbe3432e58fae08e62204a2ef2323069d85c8fa0affb87332a?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00005-of-00005.safetensors%3B+filename%3D%22model-00005-of-00005.safetensors%22%3B&Expires=1746533891&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzMzg5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvZTc2ZWM0ZGMyZTdjMGRjYmUzNDMyZTU4ZmFlMDhlNjIyMDRhMmVmMjMyMzA2OWQ4NWM4ZmEwYWZmYjg3MzMyYT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=s-YE25J6TkQcVlUU8jSOvLlAdiFVyAIgYEdj14surQ2usleDbzUpsbG7OiAvxZZofkGl-2Q1oEhfeySyl-cuCfCAAEPMBzXJQocvqB1gHBYuew8rt2%7EZ0Jl9uEKLdu8s5r4a0j3AiYXxK3XKSBR7Ob3MJpXZc0-YGG9BV4avWCByr%7ErMeEIKfZIfAVRJKJfqfXRRSGd%7EQk9wfQhrpAp74ANQQ8Cqrr4Oi96j7OVpxlMRcjA0sU5Q4LJInU6dabPU9doPnRGwt7rGz9-r3VWUdXZPEMzwk9kKTQWqdVqNnBNfV6hFVxXh2L9%7EB99Lgi9Pqdx-vy%7E1%7EZ37pDTD1EkjyA__&Key-Pair-Id=K24J24Z295AEI9 "HTTP/1.1 206 Partial Content"
+2025-05-06 11:18:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/.gitattributes "HTTP/1.1 200 OK"
+2025-05-06 11:22:50 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:51 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:51 | INFO | httpx | HTTP Request: POST https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/paths-info/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:22:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-05-06 11:22:52 | INFO | stdout | INFO:     127.0.0.1:37100 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/model.safetensors.index.json HTTP/1.1" 200 OK
+2025-05-06 11:22:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-05-06 11:22:52 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:52 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-05-06 11:22:53 | INFO | stdout | INFO:     127.0.0.1:37100 - "GET /Qwen/Qwen2-VL-7B-Instruct/resolve/main/model.safetensors.index.json HTTP/1.1" 200 OK
+2025-05-06 11:22:53 | INFO | httpx | HTTP Request: GET https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 206 Partial Content"
+2025-05-06 11:22:53 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct "HTTP/1.1 200 OK"
+2025-05-06 11:22:54 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:54 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/eed13092ef92e448dd6875b2a00151bd3f7db0ac "HTTP/1.1 200 OK"
+2025-05-06 11:22:55 | INFO | stdout | INFO:     127.0.0.1:39060 - "GET /api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main HTTP/1.1" 200 OK
+2025-05-06 11:22:55 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:55 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:22:56 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-05-06 11:22:56 | INFO | stdout | INFO:     127.0.0.1:39060 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/model.safetensors.index.json HTTP/1.1" 200 OK
+2025-05-06 11:22:56 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-05-06 11:23:39 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/.gitattributes "HTTP/1.1 200 OK"
+2025-05-06 11:24:25 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:25 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:25 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:25 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:26 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:26 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:26 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:26 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:24:26 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:27 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:27 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:24:27 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:27 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:27 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:24:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:28 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:28 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:28 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:29 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:29 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:29 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:29 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:29 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:30 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:30 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:30 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:30 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:30 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:31 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:31 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:31 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/added_tokens.json HTTP/1.1" 404 Not Found
+2025-05-06 11:24:31 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:31 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:31 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/special_tokens_map.json HTTP/1.1" 404 Not Found
+2025-05-06 11:24:32 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:32 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:32 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:24:33 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:33 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:33 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/processor_config.json HTTP/1.1" 404 Not Found
+2025-05-06 11:24:33 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:33 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:34 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.json HTTP/1.1" 200 OK
+2025-05-06 11:24:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/chat_template.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:34 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:34 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:34 | INFO | stdout | INFO:     127.0.0.1:46262 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/chat_template.jinja HTTP/1.1" 404 Not Found
+2025-05-06 11:24:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:38 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:38 | INFO | stdout | INFO:     127.0.0.1:38420 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/generation_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:38 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:39 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:39 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-05-06 11:24:39 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:39 | INFO | stdout | INFO:     127.0.0.1:38420 - "HEAD /Qwen/Qwen2-VL-7B-Instruct/resolve/main/generation_config.json HTTP/1.1" 200 OK
+2025-05-06 11:24:39 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/resolve/eed13092ef92e448dd6875b2a00151bd3f7db0ac/generation_config.json "HTTP/1.1 200 OK"
+2025-05-06 11:24:55 | ERROR | stderr | INFO:     Shutting down
+2025-05-06 11:24:55 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2025-05-06 11:24:55 | ERROR | stderr | INFO:     Application shutdown complete.
+2025-05-06 11:24:55 | ERROR | stderr | INFO:     Finished server process [33251]
