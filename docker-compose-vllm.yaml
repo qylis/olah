@@ -1,0 +1,22 @@
+name: vllmserver
+services:
+    vllm-openai:
+        runtime: nvidia
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          device_ids: ['all']
+                          capabilities: [gpu]
+        volumes:
+            - /home/ubuntu/mnt/qylis/my_hf_cache:/root/.cache/huggingface
+        environment:
+            - HUGGING_FACE_HUB_TOKEN=<token>
+            - HF_ENDPOINT=http://localhost:8090
+        ports:
+            - 8000:8000
+        ipc: host
+        image: vllm/vllm-openai:latest
+        command: --model Qwen/Qwen2-VL-7B-Instruct --tensor-parallel-size 2 --limit-mm-per-prompt "image=4"
+        network_mode: host
