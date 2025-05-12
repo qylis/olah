@@ -23,7 +23,7 @@ from .bitset import Bitset
 
 CURRENT_OLAH_CACHE_VERSION = 9
 # Due to the download chunk settings: https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/constants.py#L37
-DEFAULT_BLOCK_SIZE = 50 * 1024 * 1024
+DEFAULT_BLOCK_SIZE = 10 * 1024 * 1024 # Changing the block size to confirm with HF source
 MAX_BLOCK_NUM = 8192
 DEFAULT_COMPRESSION_ALGO = 1
 """
