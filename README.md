@@ -47,6 +47,11 @@ pip install --upgrade pip
 pip install -e .
 ```
 
+3. Build Docker image
+```bash
+docker build -f docker/build@source/dockerfile -t olah .
+```
+
 ## Quick Start
 Run the command in the console: 
 ```bash
@@ -91,6 +96,16 @@ huggingface-cli download --repo-type dataset --resume-download Salesforce/wikite
 ```
 
 You can check the path `./repos`, in which olah stores all cached datasets and models.
+
+## Run in Docker
+Run Olah+vLLM in Docker
+```bash
+docker compose -f docker-compose-full.yaml up
+```
+Stop container
+```bash
+docker compose -f docker-compose-full.yaml down
+```
 
 ## Start the server
 Run the command in the console: 

@@ -1,0 +1,30 @@
+services:
+  olah:
+    image: olah:latest
+    container_name: olah-app
+    network_mode: host
+    volumes:
+      - ./data/repos:/data/repos
+      - ./data/mirrors:/data/mirrors
+    entrypoint: ["olah-cli"]
+    command: ["--repos-path", "/data/repos"]
+
+  vllm-openai:
+    image: vllm/vllm-openai:latest
+    container_name: vllm-openai
+    network_mode: host
+    runtime: nvidia
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['all']
+              capabilities: [gpu]
+    volumes:
+      - /home/ubuntu/mnt/qylis/my_hf_cache:/root/.cache/huggingface
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=<token>
+      - HF_ENDPOINT=http://localhost:8090
+    command: --model Qwen/Qwen2-VL-7B-Instruct --tensor-parallel-size 2 --limit-mm-per-prompt "image=4"
